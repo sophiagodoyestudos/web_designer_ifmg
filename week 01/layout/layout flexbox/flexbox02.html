@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <style>
+        body {
+            margin: 0;
+        }
+        .container {
+            height: 800px; /* Ajustar para a altura desejada */
+            display: flex;
+            flex-direction: row; /* Direção dos elementos: linha */
+            flex-wrap: nowrap; /* Não quebrar linhas */
+            justify-content: center; /* Alinhamento horizontal dos itens */
+            align-items: center; /* Alinhamento vertical dos itens */
+        }
+        .caixa {
+            width: 10%;
+            height: 100px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body style="background-color: aqua;">
+    <div class="container">
+        <div class="caixa">11</div>
+        <div style="background-color: green;" class="caixa">22</div>
+        <div style="background-color: green;" class="caixa">33</div>
+        <div style="background-color: green;" class="caixa">44</div>
+        <div class="caixa">55</div>
+        <div style="background-color: green;" class="caixa">66</div>
+    </div>
+</body>
+</html>
